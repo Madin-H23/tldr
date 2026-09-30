@@ -9,7 +9,7 @@
 
 - Mount een bestandssysteem (afbeelding of blokapparaat) op een gegeven locatie:
 
-`systemd-mount {{pad/naar/bestand_of_apparaat}} {{pad/naar/mount_point}}`
+`systemd-mount {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`
 
 - Toon een lijst van alle lokale, bekende blokapparaten met de bestandssystemen die mogelijk gemount kunnen worden:
 
@@ -21,12 +21,12 @@
 
 - Unmount een of meerdere apparaten:
 
-`systemd-mount {{[-u|--umount]}} {{pad/naar/mount_point_of_apparaat1 pad/naar/mount_point_of_apparaat2 ...}}`
+`systemd-mount {{[-u|--umount]}} {{pad/naar/mountpunt_of_apparaat1 pad/naar/mountpunt_of_apparaat2 ...}}`
 
 - Mount een bestandssysteem (afbeelding of blokapparaat) met een specifiek bestandssysteemtype:
 
-`systemd-mount {{[-t|--type]}} {{file_system_type}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mount_point}}`
+`systemd-mount {{[-t|--type]}} {{bestandssysteemtype}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`
 
 - Mount een bestandssysteem (afbeelding of blokapparaat) met extra mount opties:
 
-`systemd-mount {{[-o|--options]}} {{mount_options}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mount_point}}`
+`systemd-mount {{[-o|--options]}} {{mount_opties}} {{pad/naar/bestand_of_apparaat}} {{pad/naar/mountpunt}}`

@@ -16,7 +16,7 @@
 
 `age {{[-R|--recipients-file]}} {{pad/naar/ontvangers_bestand}} {{[-o|--output]}} {{pad/naar/versleuteld_bestand}} {{pad/naar/niet-versleuteld_bestand}}`
 
-- Decodeer een bestand met een wachtwoordzin:
+- Ontsleutel een bestand met een wachtwoordzin:
 
 `age {{[-d|--decrypt]}} {{[-o|--output]}} {{pad/naar/gedecodeerd_bestand}} {{pad/naar/versleuteld_bestand}}`
 
